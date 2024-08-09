@@ -1,0 +1,1 @@
+先输入1，打开浏览器并加载完bilibili网页后登录账号，然后输入回车，程序会获取你的cookies并保存在cookies.json里。然后输入2，程序会自动用你的账号的cookies进行登录，然后输入搜索内容和页数以及发送评论的内容，程序会依次遍历当前页面下的视频并自动发送评论。如果Chrome启动失败，可能是因为chromedriver.exe与本机安装的chrome版本不对应，该项目的chromedriver.exe对应的chrome版本为125.0.6422.141，你也可以更换该项目的chromedriver.exe使之与你的chrome版本相对应。
